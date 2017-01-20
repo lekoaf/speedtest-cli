@@ -1,0 +1,22 @@
+{
+  "name": "speedtest-cli",
+  "version": "1.0.0",
+  "description": "speedtest-cli =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivel/speedtest-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivel/speedtest-cli/issues"
+  },
+  "homepage": "https://github.com/sivel/speedtest-cli#readme",
+  "devDependencies": {
+    "bluebird": "^3.4.7"
+  }
+}
