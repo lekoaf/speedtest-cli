@@ -5,7 +5,7 @@ const fs = require('fs');
 const file = fs.readFileSync('./test.json');
 const tests = JSON.parse(file.toString());
 
-exec(`./speedtest.py --json`)
+exec(`.././speedtest.py --json`)
 .then((data) => {
   (tests.tests.length >= 1000) && tests.tests.shift();
   tests.tests.push(JSON.parse(data));
